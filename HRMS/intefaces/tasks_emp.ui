@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1234</width>
+    <width>1229</width>
     <height>700</height>
    </rect>
   </property>
@@ -28,7 +28,7 @@ border-color: rgb(245, 121, 0);</string>
     <rect>
      <x>240</x>
      <y>0</y>
-     <width>991</width>
+     <width>981</width>
      <height>71</height>
     </rect>
    </property>
@@ -37,26 +37,7 @@ border-color: rgb(245, 121, 0);</string>
 font: 75 30pt &quot;Ubuntu Condensed&quot;;</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;HR DASHBOARD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="LOGO">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>218</width>
-     <height>69</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-   <property name="pixmap">
-    <pixmap>logo.png</pixmap>
-   </property>
-   <property name="scaledContents">
-    <bool>true</bool>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;EMPLOYEE DASHBOARD&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
   <widget class="Line" name="line">
@@ -80,9 +61,9 @@ background-color: rgb(238, 238, 236);</string>
    <property name="geometry">
     <rect>
      <x>220</x>
-     <y>0</y>
+     <y>10</y>
      <width>20</width>
-     <height>771</height>
+     <height>761</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -111,7 +92,7 @@ background-color: rgb(238, 238, 236);</string>
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>110</y>
+     <y>190</y>
      <width>200</width>
      <height>70</height>
     </rect>
@@ -126,38 +107,18 @@ background-color: rgb(238, 238, 236);</string>
     <bool>false</bool>
    </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(238, 238, 236);
-font: 17pt &quot;Ubuntu&quot;;</string>
+    <string notr="true">color:rgb(238, 238, 236);
+font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
    </property>
    <property name="text">
     <string>MY PROFILE</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="attendance">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>210</y>
-     <width>200</width>
-     <height>70</height>
-    </rect>
-   </property>
-   <property name="cursor">
-    <cursorShape>OpenHandCursor</cursorShape>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color:rgb(238, 238, 236);
-font: 75 15pt &quot;Ubuntu Condensed&quot;;</string>
-   </property>
-   <property name="text">
-    <string>CANDIDATE INFORMATION</string>
    </property>
   </widget>
   <widget class="QPushButton" name="tasks">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>310</y>
+     <y>290</y>
      <width>200</width>
      <height>70</height>
     </rect>
@@ -166,19 +127,20 @@ font: 75 15pt &quot;Ubuntu Condensed&quot;;</string>
     <cursorShape>OpenHandCursor</cursorShape>
    </property>
    <property name="styleSheet">
-    <string notr="true">color:rgb(0,0,0);
+    <string notr="true">
+color:rgb(0,0,0);
 background-color: rgb(233, 185, 110);
-font: 75 15pt &quot;Ubuntu Condensed&quot;;</string>
+font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
    </property>
    <property name="text">
-    <string>EMPLOYEE INFORMATION</string>
+    <string>TASKS</string>
    </property>
   </widget>
   <widget class="QPushButton" name="logout">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>610</y>
+     <y>500</y>
      <width>200</width>
      <height>70</height>
     </rect>
@@ -204,7 +166,8 @@ font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(46, 52, 54);
+    <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(46, 52, 54);
 </string>
    </property>
   </widget>
@@ -222,14 +185,14 @@ font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
 font: 75 30pt &quot;Ubuntu Condensed&quot;;</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;EMPLOYEE INFORMATION&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600;&quot;&gt;TASK&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="tasks_2">
+  <widget class="QPushButton" name="generatepayslip">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>410</y>
+     <y>390</y>
      <width>200</width>
      <height>70</height>
     </rect>
@@ -239,57 +202,60 @@ font: 75 30pt &quot;Ubuntu Condensed&quot;;</string>
    </property>
    <property name="styleSheet">
     <string notr="true">color:rgb(238, 238, 236);
-font: 75 17pt &quot;Ubuntu Condensed&quot;;
-
-</string>
+font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
    </property>
    <property name="text">
-    <string>ASSIGN TASKS</string>
+    <string>GENERATE PAYSLIP</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="logout_2">
+  <widget class="QLabel" name="LOGO">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>510</y>
-     <width>200</width>
-     <height>70</height>
+     <y>10</y>
+     <width>201</width>
+     <height>51</height>
     </rect>
-   </property>
-   <property name="cursor">
-    <cursorShape>OpenHandCursor</cursorShape>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color:rgb(238, 238, 236);
-font: 75 15pt &quot;Ubuntu Condensed&quot;;</string>
    </property>
    <property name="text">
-    <string>EMPLOYEE PERFOMANCE</string>
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>logo.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
    </property>
   </widget>
-  <widget class="QTableWidget" name="employeeTable">
+  <widget class="QTableWidget" name="tableWidget">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>180</y>
-     <width>997</width>
-     <height>521</height>
+     <x>490</x>
+     <y>210</y>
+     <width>481</width>
+     <height>431</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 197, 98);</string>
+    <string notr="true">border-color: rgb(255, 197, 98);
+selection-color: rgb(136, 138, 133);
+color: rgb(0, 0, 0);
+background-color: rgb(233, 185, 110);</string>
    </property>
-   <property name="frameShape">
-    <enum>QFrame::Box</enum>
-   </property>
-   <property name="rowCount">
-    <number>20</number>
-   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <attribute name="horizontalHeaderCascadingSectionResizes">
+    <bool>false</bool>
+   </attribute>
    <attribute name="horizontalHeaderDefaultSectionSize">
-    <number>150</number>
+    <number>250</number>
+   </attribute>
+   <attribute name="horizontalHeaderHighlightSections">
+    <bool>false</bool>
    </attribute>
    <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
-    <bool>true</bool>
+    <bool>false</bool>
    </attribute>
    <attribute name="horizontalHeaderStretchLastSection">
     <bool>true</bool>
@@ -298,7 +264,7 @@ font: 75 15pt &quot;Ubuntu Condensed&quot;;</string>
     <bool>true</bool>
    </attribute>
    <attribute name="verticalHeaderDefaultSectionSize">
-    <number>40</number>
+    <number>70</number>
    </attribute>
    <attribute name="verticalHeaderShowSortIndicator" stdset="0">
     <bool>true</bool>
@@ -306,214 +272,85 @@ font: 75 15pt &quot;Ubuntu Condensed&quot;;</string>
    <attribute name="verticalHeaderStretchLastSection">
     <bool>true</bool>
    </attribute>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <column>
-    <property name="text">
-     <string>ID</string>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-   </column>
-   <column>
+   <row>
     <property name="text">
      <string>NAME</string>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-   </column>
-   <column>
+   </row>
+   <row>
     <property name="text">
-     <string>DEPARTMENT</string>
+     <string>TASK no.</string>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-   </column>
-   <column>
+   </row>
+   <row>
     <property name="text">
-     <string>DESIGNATION</string>
+     <string>TASK</string>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-   </column>
-   <column>
+   </row>
+   <row>
     <property name="text">
-     <string>EMAIL</string>
+     <string>START-DATE</string>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-   </column>
-   <column>
+   </row>
+   <row>
     <property name="text">
-     <string>ADDRESS</string>
+     <string>END-DATE</string>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-   </column>
-   <column>
+   </row>
+   <row>
     <property name="text">
-     <string>IMAGE</string>
+     <string>STATUS</string>
     </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>NO.OF TASKS</string>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>BASE SALARY</string>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string> SALARY</string>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-   </column>
+   </row>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="save">
    <property name="geometry">
     <rect>
-     <x>250</x>
-     <y>144</y>
+     <x>1040</x>
+     <y>230</y>
      <width>121</width>
-     <height>31</height>
+     <height>41</height>
     </rect>
    </property>
-   <property name="sizePolicy">
-    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
-     <horstretch>0</horstretch>
-     <verstretch>0</verstretch>
-    </sizepolicy>
-   </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 130, 59);</string>
+    <string notr="true">background-color: rgb(255, 197, 98);
+color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
-    <string>ADD EMPLOYEE</string>
+    <string>Save Status</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QLabel" name="saved">
    <property name="geometry">
     <rect>
-     <x>550</x>
-     <y>144</y>
-     <width>141</width>
-     <height>31</height>
+     <x>1040</x>
+     <y>200</y>
+     <width>121</width>
+     <height>17</height>
     </rect>
    </property>
-   <property name="sizePolicy">
-    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
-     <horstretch>0</horstretch>
-     <verstretch>0</verstretch>
-    </sizepolicy>
-   </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 130, 59);
-
-color: rgb(204, 0, 0);</string>
+    <string notr="true">color: rgb(238, 238, 236);
+background-color: rgb(46, 52, 54);</string>
    </property>
    <property name="text">
-    <string>DELETE EMPLOYEE</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton_3">
-   <property name="geometry">
-    <rect>
-     <x>390</x>
-     <y>145</y>
-     <width>141</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="sizePolicy">
-    <sizepolicy hsizetype="Ignored" vsizetype="Ignored">
-     <horstretch>0</horstretch>
-     <verstretch>0</verstretch>
-    </sizepolicy>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 130, 59);
-
-color: rgb(204, 0, 0);</string>
-   </property>
-   <property name="text">
-    <string>UPDATE EMPLOYEE</string>
+    <string/>
    </property>
   </widget>
   <zorder>columnView_2</zorder>
   <zorder>columnView</zorder>
   <zorder>label1</zorder>
-  <zorder>LOGO</zorder>
   <zorder>line</zorder>
   <zorder>line_2</zorder>
   <zorder>tasks</zorder>
   <zorder>logout</zorder>
   <zorder>myprofile</zorder>
-  <zorder>attendance</zorder>
   <zorder>label1_2</zorder>
-  <zorder>tasks_2</zorder>
-  <zorder>logout_2</zorder>
-  <zorder>employeeTable</zorder>
-  <zorder>pushButton</zorder>
-  <zorder>pushButton_2</zorder>
-  <zorder>pushButton_3</zorder>
+  <zorder>generatepayslip</zorder>
+  <zorder>LOGO</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>save</zorder>
+  <zorder>saved</zorder>
  </widget>
  <resources/>
  <connections/>

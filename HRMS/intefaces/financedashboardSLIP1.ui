@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1233</width>
-    <height>711</height>
+    <width>1230</width>
+    <height>700</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -26,9 +26,9 @@ border-color: rgb(245, 121, 0);</string>
   <widget class="QLabel" name="label1">
    <property name="geometry">
     <rect>
-     <x>570</x>
+     <x>530</x>
      <y>0</y>
-     <width>321</width>
+     <width>411</width>
      <height>71</height>
     </rect>
    </property>
@@ -37,7 +37,7 @@ border-color: rgb(245, 121, 0);</string>
 font: 75 30pt &quot;Ubuntu Condensed&quot;;</string>
    </property>
    <property name="text">
-    <string>HR DASHBOARD</string>
+    <string>FINANCE DASHBOARD</string>
    </property>
   </widget>
   <widget class="QLabel" name="LOGO">
@@ -53,7 +53,7 @@ font: 75 30pt &quot;Ubuntu Condensed&quot;;</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../../Downloads/logo.png</pixmap>
+    <pixmap>../../../.designer/hadiqa/logo.png</pixmap>
    </property>
    <property name="scaledContents">
     <bool>true</bool>
@@ -111,7 +111,7 @@ background-color: rgb(238, 238, 236);</string>
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>110</y>
+     <y>180</y>
      <width>200</width>
      <height>70</height>
     </rect>
@@ -126,50 +126,19 @@ background-color: rgb(238, 238, 236);</string>
     <bool>false</bool>
    </property>
    <property name="styleSheet">
-    <string notr="true">color:rgb(238, 238, 236);
+    <string notr="true">background-color: rgb(46, 52, 54);
+color: rgb(255, 255, 255);
 font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
    </property>
    <property name="text">
     <string>MY PROFILE</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="attendance">
+  <widget class="QPushButton" name="empinfo">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>210</y>
-     <width>200</width>
-     <height>70</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Ubuntu Condensed</family>
-     <pointsize>15</pointsize>
-     <weight>9</weight>
-     <italic>false</italic>
-     <bold>false</bold>
-    </font>
-   </property>
-   <property name="cursor">
-    <cursorShape>OpenHandCursor</cursorShape>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border-color: rgb(164, 0, 0);
-
-color:rgb(0,0,0);
-background-color: rgb(233, 185, 110);
-font: 75 15pt &quot;Ubuntu Condensed&quot;;</string>
-   </property>
-   <property name="text">
-    <string>CANDIDATE INFORMATION</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="tasks">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>310</y>
+     <y>300</y>
      <width>200</width>
      <height>70</height>
     </rect>
@@ -189,7 +158,7 @@ font: 75 15pt &quot;Ubuntu Condensed&quot;;</string>
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>610</y>
+     <y>540</y>
      <width>200</width>
      <height>70</height>
     </rect>
@@ -208,10 +177,10 @@ font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
   <widget class="QColumnView" name="columnView_2">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>70</y>
+     <x>210</x>
+     <y>80</y>
      <width>1021</width>
-     <height>721</height>
+     <height>671</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -233,14 +202,14 @@ font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
 font: 75 30pt &quot;Ubuntu Condensed&quot;;</string>
    </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;CANDIDATE INFORMATION&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;PAYSLIP&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="tasks_2">
+  <widget class="QPushButton" name="generatepayslip">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>410</y>
+     <y>420</y>
      <width>200</width>
      <height>70</height>
     </rect>
@@ -249,128 +218,143 @@ font: 75 30pt &quot;Ubuntu Condensed&quot;;</string>
     <cursorShape>OpenHandCursor</cursorShape>
    </property>
    <property name="styleSheet">
-    <string notr="true">color:rgb(238, 238, 236);
-font: 75 15pt &quot;Ubuntu Condensed&quot;;
-</string>
+    <string notr="true">color:rgb(0,0,0);
+background-color: rgb(233, 185, 110);
+font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
    </property>
    <property name="text">
-    <string>ASSIGN TASKS</string>
+    <string>GENERATE PAYSLIP</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="logout_2">
+  <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>510</y>
-     <width>200</width>
-     <height>70</height>
+     <x>320</x>
+     <y>300</y>
+     <width>400</width>
+     <height>200</height>
     </rect>
    </property>
-   <property name="cursor">
-    <cursorShape>OpenHandCursor</cursorShape>
-   </property>
    <property name="styleSheet">
-    <string notr="true">color:rgb(238, 238, 236);
-font: 75 15pt &quot;Ubuntu Condensed&quot;;</string>
+    <string notr="true">background-color: rgb(255, 197, 98);</string>
    </property>
    <property name="text">
-    <string>EMPLOYEE PERFOMANCE</string>
+    <string/>
    </property>
   </widget>
-  <widget class="QTableWidget" name="tableWidget">
+  <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
      <x>240</x>
      <y>140</y>
-     <width>985</width>
+     <width>991</width>
      <height>561</height>
     </rect>
    </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>210</y>
+     <width>511</width>
+     <height>241</height>
+    </rect>
+   </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(233, 185, 110);</string>
+    <string notr="true">background-color: rgb(46, 52, 54);
+
+border: 3px solid rgb(255, 197, 98);</string>
    </property>
-   <property name="rowCount">
-    <number>15</number>
+   <property name="text">
+    <string/>
    </property>
-   <attribute name="horizontalHeaderCascadingSectionResizes">
-    <bool>true</bool>
-   </attribute>
-   <attribute name="horizontalHeaderMinimumSectionSize">
-    <number>100</number>
-   </attribute>
-   <attribute name="horizontalHeaderDefaultSectionSize">
-    <number>161</number>
-   </attribute>
-   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
-    <bool>true</bool>
-   </attribute>
-   <attribute name="verticalHeaderDefaultSectionSize">
-    <number>40</number>
-   </attribute>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <row/>
-   <column>
-    <property name="text">
-     <string>FIRST NAME</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>LAST NAME</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>CNIC</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>GENDER</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>ADDRESS</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>QUALIFICATIONS</string>
-    </property>
-   </column>
-   <column>
-    <property name="text">
-     <string>CHOOSE</string>
-    </property>
-   </column>
-   <item row="0" column="6">
-    <property name="text">
-     <string/>
-    </property>
-    <property name="textAlignment">
-     <set>AlignCenter</set>
-    </property>
-    <property name="checkState">
-     <enum>Unchecked</enum>
-    </property>
-    <property name="flags">
-     <set>ItemIsSelectable|ItemIsUserCheckable|ItemIsEnabled</set>
-    </property>
-   </item>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>240</y>
+     <width>481</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 10pt &quot;MS Shell Dlg 2&quot;;
+background-color: rgb(255, 197, 98);</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;FOR WHOM YOU WANT TO GENERATE PAYSLIP?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>320</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;ENTER NAME:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>320</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(46, 52, 54);
+
+border: 3px solid rgb(255, 197, 98);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Generate">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>370</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 130, 59);color:rgb(46, 52, 54);
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>GENERATE</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="erroremp">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>375</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(46, 52, 54);
+
+color: rgb(204, 0, 0);
+border:rgb(46, 52, 54)</string>
+   </property>
   </widget>
   <zorder>columnView_2</zorder>
   <zorder>columnView</zorder>
@@ -378,14 +362,19 @@ font: 75 15pt &quot;Ubuntu Condensed&quot;;</string>
   <zorder>LOGO</zorder>
   <zorder>line</zorder>
   <zorder>line_2</zorder>
-  <zorder>tasks</zorder>
+  <zorder>empinfo</zorder>
   <zorder>logout</zorder>
   <zorder>myprofile</zorder>
-  <zorder>attendance</zorder>
   <zorder>label1_2</zorder>
-  <zorder>tasks_2</zorder>
-  <zorder>logout_2</zorder>
-  <zorder>tableWidget</zorder>
+  <zorder>generatepayslip</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>name</zorder>
+  <zorder>Generate</zorder>
+  <zorder>erroremp</zorder>
  </widget>
  <resources/>
  <connections/>

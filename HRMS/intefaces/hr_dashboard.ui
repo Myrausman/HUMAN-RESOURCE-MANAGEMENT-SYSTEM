@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Dialog</class>
- <widget class="QDialog" name="Dialog">
+ <class>hr_dashboard</class>
+ <widget class="QDialog" name="hr_dashboard">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -134,7 +134,7 @@ font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
     <string>MY PROFILE</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="attendance">
+  <widget class="QPushButton" name="candidate_info">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -154,7 +154,7 @@ font: 75 15pt &quot;Ubuntu Condensed&quot;;</string>
     <string>CANDIDATE INFORMATION</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="tasks">
+  <widget class="QPushButton" name="empinfo">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -236,7 +236,7 @@ font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../Desktop/PROJECT -/placeholder.png</pixmap>
+     <pixmap>../images/placeholder.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -620,7 +620,7 @@ selection-color: rgb(255, 197, 98);</string>
       </property>
      </item>
     </widget>
-    <widget class="QTextBrowser" name="ABOUTME">
+    <widget class="QTextEdit" name="ABOUTME">
      <property name="geometry">
       <rect>
        <x>10</x>
@@ -700,7 +700,7 @@ p, li { white-space: pre-wrap; }
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>../Desktop/PROJECT -/placeholder.png</pixmap>
+      <pixmap>../images/placeholder.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -1361,7 +1361,7 @@ font: 75 30pt &quot;Ubuntu Condensed&quot;;</string>
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MY PROFILE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="tasks_2">
+  <widget class="QPushButton" name="assigntask">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -1381,7 +1381,7 @@ font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
     <string>ASSIGN TASKS</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="logout_2">
+  <widget class="QPushButton" name="emp_performance">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -1408,14 +1408,14 @@ font: 75 15pt &quot;Ubuntu Condensed&quot;;</string>
   <zorder>LOGO</zorder>
   <zorder>line</zorder>
   <zorder>line_2</zorder>
-  <zorder>tasks</zorder>
+  <zorder>empinfo</zorder>
   <zorder>logout</zorder>
   <zorder>myprofile</zorder>
-  <zorder>attendance</zorder>
+  <zorder>candidate_info</zorder>
   <zorder>EMPLOYEETAB</zorder>
   <zorder>label1_2</zorder>
-  <zorder>tasks_2</zorder>
-  <zorder>logout_2</zorder>
+  <zorder>assigntask</zorder>
+  <zorder>emp_performance</zorder>
  </widget>
  <resources/>
  <connections/>

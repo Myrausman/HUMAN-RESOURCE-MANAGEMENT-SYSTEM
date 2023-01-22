@@ -134,7 +134,7 @@ font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
     <string>MY PROFILE</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="tasks">
+  <widget class="QPushButton" name="empinfo">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -216,7 +216,7 @@ font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../Pictures/placeholder.png</pixmap>
+     <pixmap>placeholder.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -1347,7 +1347,7 @@ font: 75 30pt &quot;Ubuntu Condensed&quot;;</string>
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;MY PROFILE&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="tasks_2">
+  <widget class="QPushButton" name="generatepayslip">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -1374,12 +1374,12 @@ font: 75 17pt &quot;Ubuntu Condensed&quot;;</string>
   <zorder>LOGO</zorder>
   <zorder>line</zorder>
   <zorder>line_2</zorder>
-  <zorder>tasks</zorder>
+  <zorder>empinfo</zorder>
   <zorder>logout</zorder>
   <zorder>myprofile</zorder>
   <zorder>EMPLOYEETAB</zorder>
   <zorder>label1_2</zorder>
-  <zorder>tasks_2</zorder>
+  <zorder>generatepayslip</zorder>
  </widget>
  <resources/>
  <connections/>
