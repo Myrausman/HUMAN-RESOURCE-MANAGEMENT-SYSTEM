@@ -1,5 +1,6 @@
 # HUMAN-RESOURCE-MANAGEMENT-SYSTEM
 3RD SEMESTER PROJECT . COURSE: INTRODUCTION TO SOFTWARE ENGINEERING
+<p>I along with my friends Hadiqa and Musfira made the semester project using PyQt5 library . it was amazing experience of learning. </p>
 
 <table>
   <tr>
